@@ -1,0 +1,193 @@
+body {
+    background-color: beige;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header ul {
+    width: 250px;
+    margin-right: 40px ;
+    font-size: medium;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+   width: 20rem;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 70px;
+}
+nav div {
+    display: flex;
+    background-color: darkgreen;
+    align-content: center;
+    height: 50px;
+    width: 75%;
+}
+nav div ul{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+
+}
+nav div ul a{
+    color: white;
+    font-size: larger;
+    margin-left: 70px;
+    margin-right: 70px;
+
+}
+nav div ul a:hover{
+    color: white;
+    font-size: x-large;
+}
+h1 {
+   text-align: center;
+    font-size: 43px
+}
+.Container {
+    border-top-style: solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.Book{
+    background-color: azure;
+    text-align: center;
+    width: 350px;
+    margin: 10px;
+
+}
+.Book img{
+    display: block;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+button {
+    background-color: white;
+
+}
+footer {
+    display: flex;
+    background-color: darkgreen;
+    height: 50px;
+}
+footer p{
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    header img{
+    margin: auto;
+    }
+    header ul{
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    nav {
+        width: 100%;
+    }
+    nav div {
+        width: 100%;
+        height: 100%;
+    }
+    nav div ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
+
+.contactUs {
+    background-color: lightgray;
+}
+.header {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.header .qbook{
+    margin-right: 5px;
+    color: darkgreen;
+}
+.header .donation{
+    color: midnightblue;
+}
+.container {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+
+}
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    order : 1;
+    background-color: darkgreen;
+}
+.contactInfo div{
+    margin: 30px;
+}
+.contactInfo h2 {
+    color: white;
+}
+.contactInfo p {
+    color: white;
+}
+.content {
+    display: flex;
+    order: 2;
+    width: 100%;
+    background-color: lightblue;
+    flex-direction: column;
+}
+.content h2 {
+
+    margin : 30px 30px 0px 30px ;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+form input {
+    width: 200px;
+}
+form .message {
+    height: 60px;
+    width: 100%;
+}
+
+form .submit {
+    color: white;
+    background-color: darkgreen;
+    width: 100%;
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .contactInfo h2{
+        text-align: center;
+    }
+    .contactInfo p{
+        text-align: center;
+    }
+
+}
